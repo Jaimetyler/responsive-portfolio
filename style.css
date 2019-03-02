@@ -254,6 +254,9 @@ i think there is a solution with flex */
       margin: 100px 125px 40px;
       
   }
+  #logo {
+    margin-left: 184px;
+  }
   #masthead {
       margin: 0 auto;
       flex-wrap: wrap;
@@ -262,7 +265,7 @@ i think there is a solution with flex */
     flex-basis:50%;
   }
   nav {
-    padding-right: 25px;
+    padding-right: 184px;
   }
 }
 
