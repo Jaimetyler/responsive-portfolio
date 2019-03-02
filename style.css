@@ -245,9 +245,7 @@ body {
 }
 
 
-/* WTF man. can't get nav bar right on this one. 
-i think there is a solution with flex */
-
+/* couldn't quite get the nav bar to work. i think it has something to do with using pixels instead of % for the padding and margin but couldnt get it to work doing that either. */
 @media only screen and (max-width: 640px) {
   #main-container {
       padding: 0;
