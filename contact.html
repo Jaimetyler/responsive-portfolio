@@ -1,74 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en-us">
 
-    <head>
-            <title>Jaime's Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Jaime Tyler</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-        <link rel= "stylesheet" href= "reset.css">
-        <link rel= "stylesheet" type= "text/css" href= "style.css">
-        <link rel="shortcut icon" type="image/png" href="favicon.ico">
-        
-    </head>
 <body>
 
-<header>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Jaime Tyler</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<div class= "container">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-    <h1>Jaime Tyler</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Type Name Here" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Type Email Here" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder= "Type Message Here" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-        <nav>
-            <ul>
-                 <li><a href="index.html">About</a></li>               
-                 <li><a href="portfolio.html">Portfolio</a></li> 
-                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    
-</div>
+    </section>
 
-</header>
+  </div>
 
- <div class= "container">
-
-   <div id="test"><h2>Contact</h2></div>
-                
-<section class= "middle-column">
-
-    <form>
-        <label for= "name">Name</label>
-        <input type="text" name="name" id="form-name" placeholder="Enter Name">
-
-        <br>
-        <br>
-
-        <label for= "email">Email</label>
-        <input type="text" email="Email" id="form-email" placeholder="Enter Email">
-
-        <br>
-        <br>
-
-        <label for= "message">Message</label>
-        <textarea name="Message" id="Message" placeholder="Type Message Here"></textarea>
-
-        <br>
-        <br>
-
-        <button type="submit">Submit</button>
-
-    </form>
-
- 
-             
-</section>
-
-</div>
-
-<div class= "clearfix">
-
-   <footer>Jaime_Tyler &copy;</footer>
-         
-</div>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>
